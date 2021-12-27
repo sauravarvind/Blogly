@@ -1,0 +1,68 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:
+    url("https://www.elsevier.com/__data/assets/image/0011/997553/Laptop-iStock.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.registerTitle {
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.registerForm{
+  background-color: white;
+  width: 500px;
+  height: 260px;
+  padding: 50px;
+}
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+.registerForm > label {
+  margin: 0px 10px;
+  padding-top:10px;
+}
+
+.registerInput {
+  padding: 10px;
+  /* padding-top:15px; */
+  background-color: white;
+  border: none;
+  border-bottom: 2px solid;
+  border-width: 1px;
+outline:none;
+font-size: 15px;
+}
+
+.registerButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.registerLoginButton {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  background-color: lightcoral;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
